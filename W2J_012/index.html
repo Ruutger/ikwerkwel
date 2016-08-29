@@ -34,12 +34,25 @@ versie informatie in versies.txt
 
 <!-- Latest compiled JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	<!-- jQuery social media buttons EvdB-->
+	<script src="js/floating-soc-med-bar.min.js"></script>
+	<link rel="stylesheet" href="css/floating-soc-med-bar.css">
+
 
 	</head>
 	
 	<body class="full">
-		
 		<div id="d1" class="container-fluid page">
+		
+	<!-- social media buttons EvdB-->	 
+<script>
+	$("body").floatingSocialShare({
+ 		buttons: ["facebook", "twitter", "linkedin", "envelope"],
+        text: "share with: "
+	});
+</script>
+
     <!-- Navigation -->
 			<nav>
 				<ul class="nav">
@@ -58,6 +71,7 @@ versie informatie in versies.txt
 					</li>
 				</ul>
 			</nav>
+	
 	
 <!-- 1xTussenrij met vaste hoogte (4vh) 	 -->
 			<div class="row">
